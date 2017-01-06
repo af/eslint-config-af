@@ -1,0 +1,30 @@
+{
+  "name": "eslint-config-af",
+  "version": "1.0.0",
+  "description": "Our ESLint configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "eslint": "3"
+  },
+  "dependencies": {
+    "eslint-config-standard": "6.0.1",
+    "eslint-plugin-promise": "2.0.1",
+    "eslint-plugin-react": "5.1.1",
+    "eslint-plugin-standard": "2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/af/eslint-config-af.git"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/af/eslint-config-af/issues"
+  },
+  "homepage": "https://github.com/af/eslint-config-af#readme"
+}
