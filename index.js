@@ -25,7 +25,7 @@ module.exports = {
 
         // Further ES6 enhancements
         // Any rules here set to OFF/WARN are things to turn on eventually
-        'no-confusing-arrow': ERR,
+        'no-confusing-arrow': [ERR, {allowParens: true}],
         'prefer-spread': ERR,
         'object-shorthand': ERR,
         'prefer-arrow-callback': ERR,
