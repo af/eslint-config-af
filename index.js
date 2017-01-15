@@ -9,7 +9,7 @@ module.exports = {
     },
 
     rules: {
-        // Overrides from 'standard' that we may want to enable later:
+        // Overrides from 'standard' that I may want to enable later:
         'handle-callback-err': OFF,
         'key-spacing': OFF,
         'no-multi-spaces': OFF,
@@ -19,13 +19,14 @@ module.exports = {
         'space-before-function-paren': OFF,
         'new-cap': OFF,       // Messes with capitalized action creator fns
 
-        // Overrides from 'standard' that we do want to keep :)
+        // Overrides from 'standard' that I definitely want to keep:
         'indent': [ERR, 4],
         'no-multiple-empty-lines': [ERR, {'max': 3}],
         'comma-dangle': OFF,
         'max-len': [WARN, 100, 4, {'ignoreUrls': true, 'ignoreComments': true}],
         'no-warning-comments': WARN,
         'require-yield': OFF,       // Doesn't play nice with simple Koa routes
+        'object-curly-spacing': [WARN, 'never'],
 
         // Further ES6 enhancements
         // Any rules here set to OFF/WARN are things to turn on eventually
