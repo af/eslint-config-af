@@ -2,7 +2,7 @@ const [OFF, WARN, ERR] = [0, 1, 2]
 
 module.exports = {
     extends: ['standard', 'plugin:react/recommended'],
-    plugins: ['react'],
+    plugins: ['react', 'promise'],
 
     parserOptions: {
         ecmaVersion: 2017
@@ -38,7 +38,18 @@ module.exports = {
         'no-var': WARN,
 
         // React
-        'react/sort-comp': WARN
+        'react/sort-comp': WARN,
+
+        // Promises
+        'promise/always-return': WARN,
+        'promise/no-return-wrap': WARN,
+        'promise/param-names': WARN,
+        'promise/catch-or-return': WARN,
+        'promise/no-native': OFF,
+        'promise/no-nesting': WARN,
+        'promise/no-promise-in-callback': WARN,
+        'promise/no-callback-in-promise': WARN,
+        'promise/avoid-new': WARN,
 
         // JSDoc
         // It would be nice to enforce documentation eventually
