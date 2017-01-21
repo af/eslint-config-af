@@ -2,7 +2,7 @@ const [OFF, WARN, ERR] = [0, 1, 2]
 
 module.exports = {
     extends: ['standard', 'plugin:react/recommended'],
-    plugins: ['react', 'promise'],
+    plugins: ['react', 'promise', 'typelint'],
 
     parserOptions: {
         ecmaVersion: 2017
@@ -48,6 +48,8 @@ module.exports = {
         'promise/no-promise-in-callback': WARN,
         'promise/no-return-wrap': WARN,
         'promise/param-names': WARN,
+
+        'typelint/typelint': WARN
 
         // JSDoc
         // It would be nice to enforce documentation eventually
