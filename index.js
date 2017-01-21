@@ -42,14 +42,12 @@ module.exports = {
 
         // Promises
         'promise/always-return': WARN,
-        'promise/no-return-wrap': WARN,
-        'promise/param-names': WARN,
         'promise/catch-or-return': WARN,
-        'promise/no-native': OFF,
+        'promise/no-callback-in-promise': WARN,
         'promise/no-nesting': WARN,
         'promise/no-promise-in-callback': WARN,
-        'promise/no-callback-in-promise': WARN,
-        'promise/avoid-new': WARN,
+        'promise/no-return-wrap': WARN,
+        'promise/param-names': WARN,
 
         // JSDoc
         // It would be nice to enforce documentation eventually
