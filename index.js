@@ -27,6 +27,7 @@ module.exports = {
         'no-warning-comments': WARN,
         'require-yield': OFF,       // Doesn't play nice with simple Koa routes
         'object-curly-spacing': [WARN, 'never'],
+        'no-unused-vars': ERR,
 
         // Further ES6 enhancements
         // Any rules here set to OFF/WARN are things to turn on eventually
