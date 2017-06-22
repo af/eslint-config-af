@@ -28,6 +28,7 @@ module.exports = {
         'require-yield': OFF,       // Doesn't play nice with simple Koa routes
         'object-curly-spacing': [WARN, 'never'],
         'no-unused-vars': ERR,
+        'spaced-comment': [WARN, 'always', {exceptions: [':']}],    // Exception for flow annotations
 
         // Further ES6 enhancements
         // Any rules here set to OFF/WARN are things to turn on eventually
