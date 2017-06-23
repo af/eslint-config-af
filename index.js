@@ -21,9 +21,9 @@ module.exports = {
 
         // Overrides from 'standard' that I definitely want to keep:
         'indent': [ERR, 4],
-        'no-multiple-empty-lines': [ERR, {'max': 3}],
+        'no-multiple-empty-lines': [ERR, {max: 3}],
         'comma-dangle': OFF,
-        'max-len': [WARN, 100, 4, {'ignoreUrls': true, 'ignoreComments': true}],
+        'max-len': [WARN, 100, 4, {ignoreUrls: true, ignoreComments: true}],
         'no-warning-comments': WARN,
         'require-yield': OFF,       // Doesn't play nice with simple Koa routes
         'object-curly-spacing': [WARN, 'never'],
@@ -50,11 +50,6 @@ module.exports = {
         'promise/no-promise-in-callback': WARN,
         'promise/no-return-wrap': WARN,
         'promise/param-names': WARN,
-
-        // JSDoc
-        // It would be nice to enforce documentation eventually
-        //'require-jsdoc': OFF,
-        //'valid-jsdoc': ERR
     },
     env: {
         'es6': true,
